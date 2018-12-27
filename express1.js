@@ -17,7 +17,7 @@ app.get('/athlete/:id', (req, res) => {
 })
 
 app.get('/athletes', (req, res) => {
-  res.send(`une liste d'athèle devrait venir ici`)
+  res.send(`une liste d'athèle devrait venir là`)
 })
 
 app.post('/search', (req, res) => {
